@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+      
+      <com.dgo.video.RecorderView
+          android:id="@+id/preview"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_centerHorizontal="true"
+          android:layout_centerVertical="true" />
+    	
+	  <TextView
+        android:textIsSelectable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/timerValue" 
+        android:textSize="20sp"
+	    android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/chronometer"/>
+   
+       <Chronometer
+	        android:id="@+id/chronometer"
+	        android:format="%s"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="20sp"
+	        android:layout_alignParentTop="true"
+	        android:layout_alignParentRight="true"/>
+          
+      <TextView
+        android:textIsSelectable="true"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/selectedMusic"
+        android:textSize="15sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"/>
+
+      <Button
+          android:id="@+id/settings"
+          android:onClick="onOptionsClick"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentRight="true"
+          android:layout_below="@+id/videos"
+          android:background="@drawable/settings" />
+
+      <Button
+          android:id="@+id/flash"
+          android:onClick="onFlashClick"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_below="@+id/startRecord"
+          android:background="@drawable/flashon" />
+
+      <Button
+          android:id="@+id/startRecord"
+          android:onClick="onRecordClick"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/selectedMusic"
+          android:layout_alignParentLeft="true"
+          android:background="@drawable/record" />
+
+      <Button
+          android:id="@+id/music"
+          android:onClick="onMusicClick"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentRight="true"
+          android:layout_below="@+id/settings"
+          android:background="@drawable/music" />
+
+      <Button
+          android:id="@+id/pause"
+          android:onClick="onPauseClick"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_below="@+id/flash"
+          android:background="@drawable/pause" />
+
+       <HorizontalScrollView
+           android:id="@+id/effects_scroll_view"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_alignParentBottom="true"
+           android:layout_alignParentLeft="true" >
+			
+			 <LinearLayout 
+              android:id="@+id/effect_list_layout"
+              android:layout_width="wrap_content"
+              android:layout_height="50dp"
+              android:orientation="horizontal" />
+       </HorizontalScrollView>
+
+       <Button
+           android:id="@+id/videos"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:onClick="onVideoClick"
+           android:layout_alignParentRight="true"
+           android:layout_below="@+id/chronometer"
+           android:background="@drawable/videos" />
+
+</RelativeLayout>

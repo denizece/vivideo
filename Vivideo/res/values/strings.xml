@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ViVideo</string>
+    <string name="error">Error!</string>
+    <string name="ok">OK</string>
+    <string name="front_camera_error_message">Front Camera is not available!</string>
+    <string name="browse_music">Music</string>
+    <string name="record">Record</string>
+    <string name="options">Options</string>
+    <string name="set_timer">Set Timer</string>
+    <string name="timer">Timer: </string>
+    <string name="recording">Recording Time:</string>
+    <string name="flip_camera">Flip Camera</string>
+    <string name="prepare_effect_list">Prepare Effect List</string>
+    <string name="no_timer">No timer</string>
+    <string name="five_seconds">5 Seconds</string>
+    <string name="ten_seconds">10 Seconds</string>
+    <string name="fifteen_seconds">15 Seconds</string>
+    <string name="search_hint">Search music!</string>
+    <string name="videos_header">Videos</string>
+    <string name="music_header">Songs</string>
+    <string name="video_format">mp4</string>
+    <string name="duration_header">Set Duration</string>
+</resources>

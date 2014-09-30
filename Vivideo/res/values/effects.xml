@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+      <string-array name="androidEffectsList">
+        <item>none</item> 
+        <item>mono</item>
+    	<item>sepia</item>
+    	<item>negative</item>
+    	<item>aqua</item>
+     	<item>posterize</item>
+     	<item>whiteboard</item>
+     	<item>blackboard</item>
+     	<item>solarize</item>  
+      </string-array>
+        
+        
+     <string-array name="vivideoEffectsList">
+        <item>red</item>
+     	<item>blue</item>
+     	<item>green</item>
+     	<item>four_color</item>
+     	<item>sobel</item>
+     	<item>three</item>
+     	<item>four</item>
+     	<item>six</item>
+     	<item>nine</item>
+    	<item>mirror</item>
+     	<item>tunel</item>
+     	<item>flip_vertical</item>
+     	<item>flip_horizontal</item> 
+     	<item>half_flip</item> 
+     	<item>pixelize</item>
+     	<item>blur</item>    
+     	<item>beach</item>
+     	<item>hearts</item>
+     	<item>fishes</item>
+     	<item>stars</item>
+     	<item>snow</item> 
+     	<item>bubbles</item>
+      </string-array>
+      
+    <string name="effect_none">No Effect</string>
+    <string name="effect_mono">Mono</string>
+    <string name="effect_sepia">Sepia</string>
+    <string name="effect_negative">Negative</string>
+    <string name="effect_aqua">Aqua</string>
+    <string name="effect_posterize">Posterize</string>
+    <string name="effect_whiteboard">Whiteboard</string>
+    <string name="effect_blackboard">Blackboard</string>
+    <string name="effect_solarize">Solarize</string>
+    <string name="effect_red">Red</string>
+    <string name="effect_blue">Blue</string>
+    <string name="effect_green">Green</string>
+    <string name="effect_four_color">4 color</string>
+    <string name="effect_sobel">Sobel</string>
+    <string name="effect_four">Split 4</string>
+    <string name="effect_three">Split 3</string>
+    <string name="effect_six">Split 6</string>
+    <string name="effect_nine">Split 9</string>
+    <string name="effect_mirror">Mirror</string>
+    <string name="effect_tunel">Tunel</string>
+    <string name="effect_beach">Beach</string>
+    <string name="effect_hearts">Hearts</string>
+    <string name="effect_fishes">Fishes</string>
+    <string name="effect_stars">Stars</string>
+	<string name="effect_snow">Snow</string>	
+	<string name="effect_bubbles">Bubbles</string>
+	<string name="effect_flip_vertical">Flip Vertical</string>
+	<string name="effect_flip_horizontal">Flip Horizontal</string>
+	<string name="effect_half_flip">Half Flip</string>
+	<string name="effect_pixelize">Pixelize</string>
+	<string name="effect_blur">Blur</string>
+</resources>
